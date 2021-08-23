@@ -3,5 +3,24 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 40px 0;
+  }
+}
+.navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0 60px;
+  .header-phone {
+    color: $gray;
+    font-weight: 300;
+    span {
+      font-weight: 600;
+      margin-left: 15px;
+    }
+  }
+  .icon-toggle {
+    width: 30px;
+    height: 30px;
   }
 }

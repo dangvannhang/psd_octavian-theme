@@ -57,6 +57,26 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 40px 0;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0 60px;
+}
+.navigation .header-phone {
+  color: #393e46;
+  font-weight: 300;
+}
+.navigation .header-phone span {
+  font-weight: 600;
+  margin-left: 15px;
+}
+.navigation .icon-toggle {
+  width: 30px;
+  height: 30px;
 }
 
 /*# sourceMappingURL=app.css.map */
