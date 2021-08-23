@@ -53,6 +53,10 @@ body {
   padding: 0 15px;
 }
 
+.second-font {
+  font-family: "Raleway", sans-serif;
+}
+
 .header-main {
   display: flex;
   justify-content: space-between;
@@ -77,6 +81,39 @@ body {
 .navigation .icon-toggle {
   width: 30px;
   height: 30px;
+}
+
+.hero {
+  position: relative;
+  margin-bottom: 200px;
+}
+.hero-image {
+  margin-left: auto;
+  width: 1245px;
+  height: 960px;
+}
+.hero-content {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
+}
+.hero-caption {
+  font-size: 72px;
+  font-weight: 600;
+}
+.hero-heading {
+  font-size: 150px;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+.hero-link {
+  font-size: 18px;
+  text-decoration: underline;
+  text-transform: capitalize;
+  color: #6a727f;
+  display: inline-block;
 }
 
 /*# sourceMappingURL=app.css.map */

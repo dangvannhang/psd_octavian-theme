@@ -11,3 +11,7 @@ body {
   margin: 0 auto;
   padding: 0 15px; // because add padding horizal 15px so add max-width 30px from 1170 to 1200
 }
+
+.second-font {
+  font-family: $secondary-font;
+}
