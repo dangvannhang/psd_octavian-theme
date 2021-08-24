@@ -124,5 +124,22 @@ body {
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 0 90px;
 }
+.portfolio-column {
+  display: flex;
+  flex-direction: column;
+  gap: 85px 0;
+}
+.portfolio-image {
+  margin-bottom: 40px;
+  width: 330px;
+}
+.portfolio-title {
+  font-size: 22px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+.portfolio-category {
+  font-size: 14px;
+}
 
 /*# sourceMappingURL=app.css.map */

@@ -5,4 +5,25 @@
     grid-template-columns: repeat(3, 1fr); // la se co 3 column, moi cot = 1fr
     grid-gap: 0 90px;
   }
+  &-column {
+    display: flex;
+    flex-direction: column;
+    gap: 85px 0;
+  }
+
+  &-image {
+    margin-bottom: 40px;
+    // scale image
+    width: 330px;
+    img {
+    }
+  }
+  &-title {
+    font-size: 22px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  &-category {
+    font-size: 14px;
+  }
 }
