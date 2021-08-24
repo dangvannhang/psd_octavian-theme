@@ -116,4 +116,13 @@ body {
   display: inline-block;
 }
 
+.portfolio {
+  margin-bottom: 200px;
+}
+.portfolio-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 0 90px;
+}
+
 /*# sourceMappingURL=app.css.map */
